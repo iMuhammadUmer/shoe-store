@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import { MainGrid } from "./components/MainGrid";
+import { Home } from "./components/Home";
 
 function App() {
   return (
     <div className="body">
-      <MainGrid />
+      <Home />
     </div>
   );
 }
