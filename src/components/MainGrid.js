@@ -13,7 +13,6 @@ export const MainGrid = () => {
       </Grid>
       <Grid item xs={12} sm={10} className="rightGrid">
         <Navbar />
-        <Content />
       </Grid>
     </Grid>
   );
