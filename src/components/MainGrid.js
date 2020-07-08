@@ -3,7 +3,6 @@ import "../App.css";
 import { Grid } from "@material-ui/core";
 import SocialNav from "./SocialNav";
 import { Navbar } from "./Navbar";
-import Content from "./Content";
 
 export const MainGrid = () => {
   return (
