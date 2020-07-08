@@ -8,11 +8,12 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexWrap: "wrap",
     width: theme.spacing(120),
-    margin: theme.spacing(8),
-    marginLeft: theme.spacing(10),
+    margin: 0,
+
     "& > *": {
-        width: theme.spacing(120),
-        height: theme.spacing(60),
+      width: theme.spacing(120),
+      height: theme.spacing(60),
+      backgroundColor: "red",
     },
   },
 }));
@@ -22,7 +23,7 @@ export default function Content() {
 
   return (
     <div className={classes.root}>
-      <Paper elevation={0} />
+      <Paper />
     </div>
   );
 }
