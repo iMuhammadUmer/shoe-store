@@ -6,9 +6,7 @@ export const Home = () => {
   return (
     <div>
       <MainGrid />
-      <Content>
-        <h1>Work in progress</h1>
-      </Content>
+      <Content />
     </div>
   );
 };
