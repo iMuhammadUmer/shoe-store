@@ -1,12 +1,29 @@
 import React from "react";
-import { MainGrid } from "./MainGrid";
-import Content from "./Content";
+ import { makeStyles } from "@material-ui/core/styles";
+import Paper from "@material-ui/core/Paper";
+import "../App.css";
 
-export const Home = () => {
+const useStyles = makeStyles((theme) => ({
+  root: {
+    display: "flex",
+    flexWrap: "wrap",
+    width: theme.spacing(120),
+    margin: 0,
+
+    "& > *": {
+      width: theme.spacing(120),
+      height: theme.spacing(60),
+      backgroundColor: "red",
+    },
+  },
+}));
+
+export default function Home() {
+  const classes = useStyles();
+
   return (
-    <div>
-      <MainGrid />
-      <Content />
+    <div className={classes.root}>
+      <Paper>Home</Paper>
     </div>
   );
-};
+}
