@@ -1,20 +1,23 @@
 import React from "react";
-import Home from "./components/Home";
+import { Home } from "./components/Home";
+import { About } from "./components/About";
 import { Navbar } from "./components/Navbar";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function Routes() {
+function RouteConfig() {
   return (
     <div>
       <Router>
         <Navbar />
-        <Switch>
+        <Routes>
           <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
           <Route path="*" component={() => <h2>Error 404</h2>} />
-        </Switch>
+        </Routes>
       </Router>
     </div>
   );
 }
-export default Routes;
+export default RouteConfig;
