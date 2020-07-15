@@ -8,6 +8,7 @@ body {
   width: 100vh;
   background-image: -webkit-linear-gradient(135deg, var(--blue) 40%, white 40%);
   background-repeat: no-repeat;
+  flex-wrap: wrap;
 }
 
 .leftGrid {
@@ -43,4 +44,9 @@ nav ul {
 nav ul .link {
   list-style-type: none;
   font-size: 18px;
+}
+.container {
+  width: 100vh;
+  height: 88vh;
+  background-color: aqua;
 }
