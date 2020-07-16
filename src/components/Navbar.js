@@ -34,7 +34,7 @@ export const Navbar = () => {
           <Link to="/">Home</Link>
         </Grid>
         <Grid item xs={12} sm={3} className={classes.grid}>
-          <Link to="#">Collection</Link>
+          <Link to="/collection">Collection</Link>
         </Grid>
         <Grid item xs={12} sm={3} className={classes.grid}>
           <Link to="/about">About Us</Link>
