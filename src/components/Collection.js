@@ -1,6 +1,6 @@
 import React from "react";
 
-export const About = () => {
+export const Collection = () => {
   return (
     <div>
       <h1>Welcome to Collection</h1>
