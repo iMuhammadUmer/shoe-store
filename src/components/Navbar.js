@@ -8,6 +8,9 @@ import Grid from "@material-ui/core/Grid";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    height: "60px",
+    display: "flex",
+    alignItems: "center",
   },
   paper: {
     padding: theme.spacing(2),
@@ -17,6 +20,9 @@ const useStyles = makeStyles((theme) => ({
   grid: {
     display: "flex",
     justifyContent: "center",
+    alignItems: "center",
+    fontSize: "18px",
+    textDecoration: "none",
   },
 }));
 
@@ -31,13 +37,19 @@ export const Navbar = () => {
           </Link>
         </Grid>
         <Grid item xs={12} sm={3} className={classes.grid}>
-          <Link to="/">Home</Link>
+          <Link to="/" className={"link"}>
+            Home
+          </Link>
         </Grid>
         <Grid item xs={12} sm={3} className={classes.grid}>
-          <Link to="/collection">Collection</Link>
+          <Link to="/collection" className={"link"}>
+            Collection
+          </Link>
         </Grid>
         <Grid item xs={12} sm={3} className={classes.grid}>
-          <Link to="/about">About Us</Link>
+          <Link to="/about" className={"link"}>
+            About Us
+          </Link>
         </Grid>
       </Grid>
     </div>
