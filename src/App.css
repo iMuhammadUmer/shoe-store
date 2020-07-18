@@ -32,17 +32,16 @@ body {
   padding: 400px;
 }
 nav {
-  width: 80%;
-  height: 20px;
+  width: 20em;
 }
-nav ul {
+.link {
   display: flex;
   justify-content: space-between;
   font-size: 18px;
-}
-nav ul .link {
-  list-style-type: none;
+  color: var(--blue);
+  text-decoration: none;
   font-size: 18px;
+  font-weight: 700;
 }
 .container {
   width: 100vh;
