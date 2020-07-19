@@ -42,8 +42,8 @@ export const Navbar = () => {
           </Link>
         </Grid>
         <Grid item xs={12} sm={3} className={classes.grid}>
-          <Link to="/collection" className={"link"}>
-            Collection
+          <Link to="/products" className={"link"}>
+            Products
           </Link>
         </Grid>
         <Grid item xs={12} sm={3} className={classes.grid}>
