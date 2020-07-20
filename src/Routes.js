@@ -3,6 +3,7 @@ import { Home } from "./components/Home";
 import { About } from "./components/About";
 import { Products } from "./components/Products.js";
 import { Navbar } from "./components/Navbar";
+import { ProductItem } from "./components/ProductItem";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -14,7 +15,9 @@ function RouteConfig() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/products" component={Products} />
+          <Route path="/product/:id" component={ProductItem} />
           <Route path="/about" component={About} />
+
           <Route path="*" component={() => <h2>Error 404</h2>} />
         </Switch>
       </Router>
