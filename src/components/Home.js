@@ -26,7 +26,7 @@ export const Home = () => {
       <Grid container>
         <Grid item xs={12} sm={12}>
           <Paper className={classes.paper}>
-            <h1>Welcome to Home</h1>
+            <h1>Image slider</h1>
           </Paper>
         </Grid>
       </Grid>
