@@ -30,23 +30,23 @@ export const Navbar = () => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <Grid container spacing={3}>
-        <Grid item xs={12} sm={3} className={classes.grid}>
+      <Grid container spacing={5}>
+        <Grid item sm={3} className={classes.grid}>
           <Link to="/" className={"link"}>
             <img src={logo} alt="logo" />
           </Link>
         </Grid>
-        <Grid item xs={12} sm={3} className={classes.grid}>
+        <Grid item sm={3} className={classes.grid}>
           <Link to="/" className={"link"}>
             Home
           </Link>
         </Grid>
-        <Grid item xs={12} sm={3} className={classes.grid}>
+        <Grid item sm={3} className={classes.grid}>
           <Link to="/products" className={"link"}>
             Products
           </Link>
         </Grid>
-        <Grid item xs={12} sm={3} className={classes.grid}>
+        <Grid item sm={3} className={classes.grid}>
           <Link to="/about" className={"link"}>
             About Us
           </Link>
