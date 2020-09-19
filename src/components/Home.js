@@ -24,23 +24,7 @@ export const Home = () => {
 
   return (
     <div className={classes.root}>
-      <Grid container>
-        <Grid item xs={12} sm={12}>
-          <Paper className={classes.paper}>
-            <Carousel auto>
-              <div style={{ backgroundColor: "tomato", height: "100%" }}>
-                Frame 1
-              </div>
-              <div style={{ backgroundColor: "orange", height: "100%" }}>
-                Frame 2
-              </div>
-              <div style={{ backgroundColor: "orchid", height: "100%" }}>
-                Frame 3
-              </div>
-            </Carousel>
-          </Paper>
-        </Grid>
-      </Grid>
+      <h1>Welcome to home</h1>
     </div>
   );
 };
