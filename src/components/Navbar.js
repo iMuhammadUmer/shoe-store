@@ -36,19 +36,19 @@ export const Navbar = () => {
             <img src={logo} alt="logo" />
           </Link>
         </Grid>
-        <Grid item sm={2} className={classes.grid}>
+        <Grid item sm={1} className={classes.grid}>
           <Link to="/" className={"link"}>
-            Home
+            Men
           </Link>
         </Grid>
-        <Grid item sm={2} className={classes.grid}>
+        <Grid item sm={1} className={classes.grid}>
           <Link to="/products" className={"link"}>
-            Products
+            Women
           </Link>
         </Grid>
-        <Grid item sm={2} className={classes.grid}>
+        <Grid item sm={1} className={classes.grid}>
           <Link to="/about" className={"link"}>
-            About Us
+            Kids
           </Link>
         </Grid>
       </Grid>
