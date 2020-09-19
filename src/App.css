@@ -1,17 +1,12 @@
 :root {
-  --blue: #09009b;
+  --blue: #222737;
   --black: #040403;
   --white: #f5f5f5;
 }
 
 body {
   height: 100vh;
-  background-image: -webkit-linear-gradient(
-    135deg,
-    var(--blue) 35%,
-    var(--white) 35%
-  );
-  background-repeat: no-repeat;
+  background-color: var(--blue);
   overflow: hidden;
 }
 
@@ -43,10 +38,10 @@ nav {
   display: flex;
   justify-content: space-between;
   font-size: 18px;
-  color: var(--blue);
+  color: white;
   text-decoration: none;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: 400;
 }
 .container {
   width: 100vh;
